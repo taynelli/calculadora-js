@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 0;
+  border-style: none;
+}
+
+button {
+  width: 23%;
+  height: 50px;
+  background-color:rgb(58, 52, 52);
+  color: white;
+}
+
+span {
+  width: auto;
+  margin: 1px;
+  /* padding: 2px; */
+}
+
+div{
+  margin: 5px;
+}
+
+button:hover{
+  background-color: grey;
+}
+
+.numeroCalculado {
+  width: 100%;
+  margin-bottom: 2px;
+}
+
+.caixaNumero{
+  width: 95%;
+  height: 50px;
+  text-align: right;
+  background-color: rgb(103, 100, 100);
+  font-size: 24px;
+  color: white;
+  border-color: rgb(10, 10, 10);
+}
+
+body {
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(118, 37, 37, 1));
+}
+
+/* .equal-button {
+  background-color:grey;
+  color: white;
+  border-color: rgb(141, 124, 124);
+}
+
+.equal-button:hover {
+  background-color: white;
+  color: black;
+} */
+
+.calculadora{
+  /* width: 46%; */
+  position: absolute;
+  left: 25%;
+  top: 12%;
+  background-color: rgb(35, 33, 30);
+  padding: 8px;
+}
+
+.numeroZero {
+  /* width: 100px; */
+  border-color: rgb(15, 13, 13);
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.numberZero {
+  width: 48%;
+  height: 50px;
+  background-color: rgb(58, 52, 52);
+  color: white;
+}
+
+.operacao {
+  background-color:  rgb(58, 52, 52);
+  border-color: rgb(232, 210, 210);
+  color: white;
+}
+
+ .botaoAcima {
+  background-color:  rgb(58, 52, 52);
+  border-color: white;
+  color: white;
+}
+
+.tituloCalculadora {
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+    <div class="calculadora">
+      <div class="numeroCalculado">
+        <h1 class="tituloCalculadora">Calculadora</h1>
+        <input id="caixa" type="text" class="caixaNumero" />
+      </div>
+      <div>
+        <span><button class="botaoAcima" onclick="limpaCampo()">AC</button></span>
+        <span><button class="botaoAcima" onclick="inverterNumero()">+ / -</button></span>
+        <span><button class="botaoAcima" onclick="converterPercentual()">%</button></span>
+        <span><button class="operacao" onclick="operacao('/')">/</button></span>
+      </div>
+      <div>
+        <span><button class="number" onclick="digita('7')">7</button></span>
+        <span><button class="number" onclick="digita('8')">8</button></span>
+        <span><button class="number" onclick="digita('9')">9</button></span>
+        <span><button class="operacao" onclick="operacao('+')">+</button></span>
+      </div>
+      <div>
+        <span><button class="number" onclick="digita('4')">4</button></span>
+        <span><button class="number" onclick="digita('5')">5</button></spa4n>
+        <span><button class="number" onclick="digita('6')">6</button></span>
+        <span><button class="operacao" onclick="operacao('-')">-</button></span>
+      </div>
+      <div>
+        <span><button class="number" onclick="digita('1')">1</button></span>
+        <span><button class="number" onclick="digita('2')">2</button></span>
+        <span><button class="number" onclick="digita('3')">3</button></span>
+        <span><button class="operacao" onclick="operacao('*')">*</button></span>
+      </div>
+      <div>
+        <span class="numeroZero"><button class="numberZero number" onclick="digita('0')">0</button></span>
+        <span><button class="number" onclick="operacao(',')">,</button></span>
+        <span><button class="equal-button" id="equal-btn" onclick="calcular()">=</button></span>
+      </div>
+    </div>
+    <br>
+  </body>
